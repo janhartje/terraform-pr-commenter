@@ -1,5 +1,5 @@
-name: 'Terraform Pull Request Commenter'
-description: 'Adds opinionated comments to a PR from Terraform fmt/init/plan output(Based on robburger/terraform-pr-commenter)'
+name: 'Terraform PR Commenter (based on robburger/terraform-pr-commenter)'
+description: 'Adds opinionated comments to a PR from Terraform fmt/init/plan output'
 author: 'janhartje'
 branding:
   icon: 'git-pull-request'
