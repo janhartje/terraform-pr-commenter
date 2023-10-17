@@ -1,9 +1,9 @@
-name: 'Terraform PR Commenter'
+name: 'Terraform PR Commenter (based on robburger/terraform-pr-commenter)'
 description: 'Adds opinionated comments to a PR from Terraform fmt/init/plan output'
-author: 'Rob Burger'
+author: 'janhartje'
 branding:
   icon: 'git-pull-request'
-  color: 'purple'
+  color: 'green'
 inputs:
   commenter_type:
     description: 'The type of comment. Options: [fmt, init, plan]'
