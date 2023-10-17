@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: 'docker'
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+    commit-message:
+      prefix: 'chore(docker)'
+    labels:
+      - 'docker'
+    open-pull-requests-limit: 100
+    rebase-strategy: auto
+    reviewers:
+      - 'janhartje'
+    target-branch: main
