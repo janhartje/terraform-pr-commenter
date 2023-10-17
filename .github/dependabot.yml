@@ -12,4 +12,4 @@ updates:
     rebase-strategy: auto
     reviewers:
       - 'janhartje'
-    target-branch: master
+    target-branch: main
